@@ -1,0 +1,82 @@
+body {
+ background-color: #0d1f3a;
+}
+
+p, h1, h2, h4 {
+ color: rgb(247, 247, 247);
+}
+
+p {
+    font-size: large;
+    font-weight: bold;
+}
+
+.btn {
+    width: 20rem;
+    margin: 20px 0 0 0;
+    border-radius: 50px;
+    background-color: #008dce;
+}
+
+.navbar {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(17, 35, 64, 0.4);     
+}
+
+.nav-link {
+    color: aliceblue !important;
+    font-weight: bold;
+    padding: 20px !important;
+    background-color: none !important;
+    border-radius: 50px !important;
+    cursor:  pointer !important;
+}
+
+.nav-link:hover {
+    color: #008dce !important;
+}
+
+.active {
+    background-color: transparent !important;
+    border-bottom: solid #008dce !important;
+    color: #008dce  !important;
+}
+
+.tab-pane {
+    background: none !important;
+    border: none !important;
+    
+}
+
+.card {
+    display: inline-block !important;
+    background-color: #253b50;
+    border-radius: 5% !important;
+    transition: .5s ease-in;
+}
+
+.card:hover {
+    border: solid #008dce;
+    transform: scale(1.02);
+}
+
+.card-img-top {
+    background: linear-gradient(rgba(0, 0, 0, .1), var(--main-color)) !important;
+}
+
+.card-1 {
+    width: 22rem;
+    height: 15rem; 
+    margin: 10px; 
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.card-1 img {
+    width: 22rem;
+    height: 15rem; 
+}
+.bi {
+    color: #39caee;
+}
