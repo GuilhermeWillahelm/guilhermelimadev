@@ -1,5 +1,5 @@
 body {
- background-color: #0d1f3a;
+ background-color: #133568;
 }
 
 p, h1, h2, h4 {
@@ -21,7 +21,7 @@ p {
 .navbar {
     width: 100%;
     padding: 10px;
-    background-color: rgba(17, 35, 64, 0.4);     
+    background-color: rgba(51, 110, 206, 0.4);     
 }
 
 .nav-link {
@@ -51,14 +51,14 @@ p {
 
 .card {
     display: inline-block !important;
-    background-color: #253b50;
+    background-color: #26427c;
     border-radius: 5% !important;
     transition: .5s ease-in;
 }
 
 .card:hover {
     border: solid #008dce;
-    transform: scale(1.02);
+    transform: scale(1.03);
 }
 
 .card-img-top {
@@ -78,5 +78,5 @@ p {
     height: 15rem; 
 }
 .bi {
-    color: #39caee;
+    color: #cbf5ff;
 }
